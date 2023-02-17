@@ -19,7 +19,7 @@
     2. Đối với phần kiểm thử:
         1.1 Mở file src/test/java/FeeCalculatorTest.java
         1.2 Nhấn chuột phải vào cạnh tên class (FeeCalculatorTest) rồi chọn "Run 'FeeCalculatorTest' 
-        để chạy tất cả các testcase hoặc Nhấn chuột phải vào cạnh tên hàm để test hàm nhất định.
+            để chạy tất cả các testcase hoặc Nhấn chuột phải vào cạnh tên hàm để test hàm nhất định.
 
 
 

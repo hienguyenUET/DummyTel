@@ -4,7 +4,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.Calendar;
 import java.util.Date;
 
-public class PhoneCall {
+public class DummyTel {
 
     private Date startPhoneCall;
     private double fee;
@@ -67,7 +67,7 @@ public class PhoneCall {
         return feeAfterTax;
     }
 
-    public PhoneCall(Date startPhoneCall, long duration) {
+    public DummyTel(Date startPhoneCall, long duration) {
 
         if (fromSixteenth == null) {
             fromSixteenth = Calendar.getInstance();

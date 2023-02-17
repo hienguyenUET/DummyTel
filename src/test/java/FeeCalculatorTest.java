@@ -11,9 +11,9 @@ public class FeeCalculatorTest {
     @Test
     void testTimeDiscounted() {
 
-        PhoneCall phoneCall = new PhoneCall(startDate, 360);
+        DummyTel dummyTel = new DummyTel(startDate, 360);
         double expectedResult = 1.5;
-        double actualResult = phoneCall.feeCalculator();
+        double actualResult = dummyTel.feeCalculator();
 
         assertEquals(expectedResult, actualResult);
     }
@@ -21,9 +21,9 @@ public class FeeCalculatorTest {
     @Test
     void testTimeNotDiscounted() {
 
-        PhoneCall phoneCall = new PhoneCall(startDate, 3601);
+        DummyTel dummyTel = new DummyTel(startDate, 3601);
         double expectedResult = 23.01;
-        double actualResult = phoneCall.feeCalculator();
+        double actualResult = dummyTel.feeCalculator();
 
         assertEquals(expectedResult, actualResult);
     }
@@ -31,10 +31,10 @@ public class FeeCalculatorTest {
     @Test
     void testLongDuration() {
 
-        PhoneCall phoneCall = new PhoneCall(startDate, 3800);
+        DummyTel dummyTel = new DummyTel(startDate, 3800);
 
         double expectedResult = 0.12;
-        double actualResult = phoneCall.feeCalculator();
+        double actualResult = dummyTel.feeCalculator();
 
         assertEquals(expectedResult, actualResult);
     }
@@ -42,10 +42,10 @@ public class FeeCalculatorTest {
     @Test
     void testShortDuration() {
 
-        PhoneCall phoneCall = new PhoneCall(startDate, 158);
+        DummyTel dummyTel = new DummyTel(startDate, 158);
 
         double expectedResult = 0.03;
-        double actualResult = phoneCall.feeCalculator();
+        double actualResult = dummyTel.feeCalculator();
 
         assertEquals(expectedResult, actualResult);
     }

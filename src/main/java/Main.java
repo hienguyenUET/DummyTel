@@ -3,8 +3,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
-        PhoneCall phoneCall = new PhoneCall(new Date(), 158);
-        double fee = phoneCall.feeCalculator();
+        DummyTel dummyTel = new DummyTel(new Date(), 158);
+        double fee = dummyTel.feeCalculator();
         System.out.println(fee);
     }
 }
