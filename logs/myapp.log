@@ -38,3 +38,7 @@
 [18:07:19.422] - [INFO ] - [PhoneCall] - [Calling time: 2023-02-17T18:07:19.421+0700, Duration: 360, total fee: 3.0]
 [18:07:19.423] - [INFO ] - [PhoneCall] - [Calling satisfied discount condition. Fee: 1.5]
 [18:07:19.423] - [INFO ] - [PhoneCall] - [Fee to pay: 0.08]
+[21:12:17.844] - [INFO ] - [PhoneCall] - [Calling time: 2023-02-17T21:12:17.511+0700, Duration: 3601, total fee: 30.008333333333333]
+[21:12:17.848] - [INFO ] - [PhoneCall] - [Calling satisfied discount condition. Fee: 15.004166666666666]
+[21:12:17.848] - [INFO ] - [PhoneCall] - [Duration longer than 60 minutes, after being discount: 2.250625]
+[21:12:17.848] - [INFO ] - [PhoneCall] - [Fee to pay: 0.11]
