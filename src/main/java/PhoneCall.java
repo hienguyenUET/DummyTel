@@ -20,6 +20,10 @@ public class PhoneCall {
     private final Logger log = LogManager.getLogger();
 
 
+    /**
+     * Hàm tính toán cước phí cuộc gọi phát sinh
+     * @return
+     */
     protected double feeCalculator() {
 
         if (fromSixteenth == null) {
@@ -46,10 +50,13 @@ public class PhoneCall {
         fee = duration * (FEE / 60);
         log.info("Calling time: {}, Duration: {}, total fee: {}", startPhoneCall, duration, fee);
 
+        // Kiểm tra giờ gọi có nằm trong khoảng thời gian được giảm giá không (Từ 18h đến 8h)
         if (firstTimeCondition || secondTimeCondition) {
             fee = fee * SPECIFIC_HOUR_DISCOUNT;
             log.info("Calling satisfied discount condition. Fee: {}", fee);
         }
+
+        // Kiểm tra thời lượng cuộc gọi có lớn hơn 60 phút không
         if (duration > 3600) {
             fee = fee * LONG_DURATION_DISCOUNT;
             log.info("Duration longer than 60 minutes, after being discount: {}", fee);

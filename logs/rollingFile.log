@@ -1,22 +1,21 @@
-15:25:55.018 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:25:54.414+0700, Duration: 3601, total fee: 30.008333333333333
-15:25:55.028 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 4.50125
-15:25:55.029 [main] INFO  PhoneCall - Fee to pay: 0.0
-15:33:49.721 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:33:49.273+0700, Duration: 3601, total fee: 30.008333333333333
-15:33:49.726 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 4.50125
-15:33:49.726 [main] INFO  PhoneCall - Fee to pay: 23.0
-15:34:32.234 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:34:31.783+0700, Duration: 3601, total fee: 30.008333333333333
-15:34:32.250 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 4.50125
-15:34:32.250 [main] INFO  PhoneCall - Fee to pay: 0.0
-15:35:37.044 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:35:36.585+0700, Duration: 3601, total fee: 30.008333333333333
-15:35:37.050 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 4.50125
-15:35:37.051 [main] INFO  PhoneCall - Fee to pay: 0.23
-15:50:45.473 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:50:45.057+0700, Duration: 3601, total fee: 30.008333333333333
-15:50:45.478 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 4.50125
-15:50:45.479 [main] INFO  PhoneCall - Fee to pay: 0.23
-15:50:56.302 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:50:55.959+0700, Duration: 36000, total fee: 300.0
-15:50:56.306 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 45.0
-15:50:56.306 [main] INFO  PhoneCall - Fee to pay: 2.25
-15:51:17.890 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:51:17.521+0700, Duration: 3600, total fee: 30.0
-15:51:17.894 [main] INFO  PhoneCall - Fee to pay: 1.5
-15:51:47.650 [main] INFO  PhoneCall - Calling time: 2023-02-16T15:51:47.250+0700, Duration: 3600, total fee: 30.0
-15:51:47.654 [main] INFO  PhoneCall - Fee to pay: 1.5
+18:05:49.036 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:05:48.514+0700, Duration: 3800, total fee: 31.666666666666668
+18:05:49.049 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 15.833333333333334
+18:05:49.049 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 2.375
+18:05:49.050 [main] INFO  PhoneCall - Fee to pay: 0.12
+18:07:04.752 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:07:04.348+0700, Duration: 158, total fee: 1.3166666666666667
+18:07:04.756 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 0.6583333333333333
+18:07:04.767 [main] INFO  PhoneCall - Fee to pay: 0.03
+18:07:19.388 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:07:19.061+0700, Duration: 158, total fee: 1.3166666666666667
+18:07:19.392 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 0.6583333333333333
+18:07:19.392 [main] INFO  PhoneCall - Fee to pay: 0.03
+18:07:19.412 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:07:19.410+0700, Duration: 3601, total fee: 30.008333333333333
+18:07:19.412 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 15.004166666666666
+18:07:19.413 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 2.250625
+18:07:19.413 [main] INFO  PhoneCall - Fee to pay: 0.11
+18:07:19.419 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:07:19.418+0700, Duration: 3800, total fee: 31.666666666666668
+18:07:19.420 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 15.833333333333334
+18:07:19.420 [main] INFO  PhoneCall - Duration longer than 60 minutes, after being discount: 2.375
+18:07:19.420 [main] INFO  PhoneCall - Fee to pay: 0.12
+18:07:19.422 [main] INFO  PhoneCall - Calling time: 2023-02-17T18:07:19.421+0700, Duration: 360, total fee: 3.0
+18:07:19.423 [main] INFO  PhoneCall - Calling satisfied discount condition. Fee: 1.5
+18:07:19.423 [main] INFO  PhoneCall - Fee to pay: 0.08
