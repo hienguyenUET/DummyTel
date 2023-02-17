@@ -6,6 +6,7 @@
         1.2 resources/: Chứa cấu hình file log4j2 
     2. src/test: Chứa file bao gồm các testcase để kiểm thử chương trình
     3. logs: Chứa file log của chương trinh sau khi chạy
+    4. pom.xml: Chứa các dependencies dùng để chạy chương trình
 
 ***
 
